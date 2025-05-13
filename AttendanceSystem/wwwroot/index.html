@@ -1,0 +1,123 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Attendance System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        input, button {
+            padding: 10px;
+            margin: 10px 0;
+            width: 100%;
+        }
+
+        table {
+            width: 100%;
+            margin-top: 20px;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 8px;
+            border: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+    <h2>Attendance System</h2>
+    <input type="text" id="userName" placeholder="Enter your name">
+    <button onclick="signIn()">Sign In</button>
+    <button onclick="signOut()">Sign Out</button>
+    <button onclick="clearRecords()">Clear All Records</button>
+    <div id="message"></div>
+    <h3>Today's Attendance Records</h3>
+    <table id="recordTable">
+        <tr>
+            <th>Name</th>
+            <th>Sign-in Time</th>
+            <th>Sign-out Time</th>
+        </tr>
+    </table>
+
+    <script>
+        async function signIn() {
+            const userName = document.getElementById("userName").value;
+            if (!userName) {
+                alert("Please enter your name.");
+                return;
+            }
+
+            const response = await fetch('/signin', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ userName })
+            });
+
+            const result = await response.json();
+            document.getElementById("message").innerText = result.message;
+            loadRecords();
+        }
+
+        async function signOut() {
+            const userName = document.getElementById("userName").value;
+            if (!userName) {
+                alert("Please enter your name.");
+                return;
+            }
+
+            const response = await fetch('/signout', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ userName })
+            });
+
+            const result = await response.json();
+            document.getElementById("message").innerText = result.message;
+            loadRecords();
+        }
+
+        async function clearRecords() {
+            const confirmClear = confirm("Are you sure you want to clear all records?");
+            if (!confirmClear) return;
+
+            const response = await fetch('/clear', {
+                method: 'DELETE'
+            });
+
+            const result = await response.json();
+            document.getElementById("message").innerText = result.message;
+            loadRecords();
+        }
+
+        async function loadRecords() {
+            const response = await fetch('/records');
+            const records = await response.json();
+            const table = document.getElementById("recordTable");
+            table.innerHTML = `
+                    <tr>
+                        <th>Name</th>
+                        <th>Sign-in Time</th>
+                        <th>Sign-out Time</th>
+                    </tr>
+                `;
+            records.forEach(record => {
+                const row = table.insertRow();
+                row.insertCell(0).innerText = record.userName;
+                row.insertCell(1).innerText = record.signInTime;
+                row.insertCell(2).innerText = record.signOutTime ? record.signOutTime : "Not Signed Out";
+            });
+        }
+
+        window.onload = loadRecords;
+    </script>
+</body>
+</html>

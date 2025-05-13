@@ -1,0 +1,104 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\25017\\source\\repos\\AttendanceSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{61A49DD9-16E5-416A-BFEF-B075D8C8917C}|AttendanceSystem\\AttendanceSystem.csproj|c:\\users\\25017\\source\\repos\\attendancesystem\\attendancesystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61A49DD9-16E5-416A-BFEF-B075D8C8917C}|AttendanceSystem\\AttendanceSystem.csproj|solutionrelative:attendancesystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61A49DD9-16E5-416A-BFEF-B075D8C8917C}|AttendanceSystem\\AttendanceSystem.csproj|c:\\users\\25017\\source\\repos\\attendancesystem\\attendancesystem\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{61A49DD9-16E5-416A-BFEF-B075D8C8917C}|AttendanceSystem\\AttendanceSystem.csproj|solutionrelative:attendancesystem\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61A49DD9-16E5-416A-BFEF-B075D8C8917C}|AttendanceSystem\\AttendanceSystem.csproj|c:\\users\\25017\\source\\repos\\attendancesystem\\attendancesystem\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{61A49DD9-16E5-416A-BFEF-B075D8C8917C}|AttendanceSystem\\AttendanceSystem.csproj|solutionrelative:attendancesystem\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61A49DD9-16E5-416A-BFEF-B075D8C8917C}|AttendanceSystem\\AttendanceSystem.csproj|c:\\users\\25017\\source\\repos\\attendancesystem\\attendancesystem\\attendancesystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{61A49DD9-16E5-416A-BFEF-B075D8C8917C}|AttendanceSystem\\AttendanceSystem.csproj|solutionrelative:attendancesystem\\attendancesystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61A49DD9-16E5-416A-BFEF-B075D8C8917C}|AttendanceSystem\\AttendanceSystem.csproj|c:\\users\\25017\\source\\repos\\attendancesystem\\attendancesystem\\attendancesystem.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{61A49DD9-16E5-416A-BFEF-B075D8C8917C}|AttendanceSystem\\AttendanceSystem.csproj|solutionrelative:attendancesystem\\attendancesystem.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\25017\\source\\repos\\AttendanceSystem\\AttendanceSystem\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "AttendanceSystem\\wwwroot\\index.html",
+              "ToolTip": "C:\\Users\\25017\\source\\repos\\AttendanceSystem\\AttendanceSystem\\wwwroot\\index.html",
+              "RelativeToolTip": "AttendanceSystem\\wwwroot\\index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-05-13T09:00:45.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AttendanceSystem",
+              "DocumentMoniker": "C:\\Users\\25017\\source\\repos\\AttendanceSystem\\AttendanceSystem\\AttendanceSystem.csproj",
+              "RelativeDocumentMoniker": "AttendanceSystem\\AttendanceSystem.csproj",
+              "ToolTip": "C:\\Users\\25017\\source\\repos\\AttendanceSystem\\AttendanceSystem\\AttendanceSystem.csproj",
+              "RelativeToolTip": "AttendanceSystem\\AttendanceSystem.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-13T08:21:16.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\25017\\source\\repos\\AttendanceSystem\\AttendanceSystem\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "AttendanceSystem\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\25017\\source\\repos\\AttendanceSystem\\AttendanceSystem\\Properties\\launchSettings.json",
+              "RelativeToolTip": "AttendanceSystem\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-13T08:24:31.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AttendanceSystem",
+              "DocumentMoniker": "C:\\Users\\25017\\source\\repos\\AttendanceSystem\\AttendanceSystem\\AttendanceSystem.csproj",
+              "RelativeDocumentMoniker": "AttendanceSystem\\AttendanceSystem.csproj",
+              "ToolTip": "C:\\Users\\25017\\source\\repos\\AttendanceSystem\\AttendanceSystem\\AttendanceSystem.csproj",
+              "RelativeToolTip": "AttendanceSystem\\AttendanceSystem.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-13T08:18:31.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\25017\\source\\repos\\AttendanceSystem\\AttendanceSystem\\Program.cs",
+              "RelativeDocumentMoniker": "AttendanceSystem\\Program.cs",
+              "ToolTip": "C:\\Users\\25017\\source\\repos\\AttendanceSystem\\AttendanceSystem\\Program.cs*",
+              "RelativeToolTip": "AttendanceSystem\\Program.cs*",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAAwGYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T08:04:17.043Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

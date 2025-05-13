@@ -1,0 +1,125 @@
+{
+  "Version": 1,
+  "Hash": "gXRnvKwtZLrTFDVlvYO8d6Gbv4ZtQASgFl6/rOx7rmo=",
+  "Source": "AttendanceSystem",
+  "BasePath": "_content/AttendanceSystem",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "AttendanceSystem\\wwwroot",
+      "Source": "AttendanceSystem",
+      "ContentRoot": "C:\\Users\\25017\\source\\repos\\AttendanceSystem\\AttendanceSystem\\wwwroot\\",
+      "BasePath": "_content/AttendanceSystem",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\25017\\source\\repos\\AttendanceSystem\\AttendanceSystem\\wwwroot\\index.html",
+      "SourceId": "AttendanceSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\25017\\source\\repos\\AttendanceSystem\\AttendanceSystem\\wwwroot\\",
+      "BasePath": "_content/AttendanceSystem",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cakon6tm89",
+      "Integrity": "tBuJ2R7CdE9Ye2/fD8qDXHxYuvlTxj52EFZCUJRbtLw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "index.cakon6tm89.html",
+      "AssetFile": "C:\\Users\\25017\\source\\repos\\AttendanceSystem\\AttendanceSystem\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3800"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tBuJ2R7CdE9Ye2/fD8qDXHxYuvlTxj52EFZCUJRbtLw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 09:44:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cakon6tm89"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tBuJ2R7CdE9Ye2/fD8qDXHxYuvlTxj52EFZCUJRbtLw="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\25017\\source\\repos\\AttendanceSystem\\AttendanceSystem\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3800"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tBuJ2R7CdE9Ye2/fD8qDXHxYuvlTxj52EFZCUJRbtLw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 09:44:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tBuJ2R7CdE9Ye2/fD8qDXHxYuvlTxj52EFZCUJRbtLw="
+        }
+      ]
+    }
+  ]
+}
