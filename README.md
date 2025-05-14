@@ -17,4 +17,5 @@ A attendance system with sign-in, sign-out, and clear records. Built with ASP.NE
    git clone https://github.com/Jerry3570/AttendanceSystem.git
    cd AttendanceSystem
 
+## Author
 Jie
