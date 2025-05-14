@@ -65,10 +65,11 @@ return Results.Json(new { message = "Sign-out successful" });
 app.MapDelete("/clear", async () =>
 {
 using var connection = new SqliteConnection(connectionString);
-connection.Open();
+await connection.OpenAsync();  
+
 var command = connection.CreateCommand();
 command.CommandText = "DELETE FROM Attendance";
-await command.ExecuteNonQueryAsync();
+await command.ExecuteNonQueryAsync(); 
 
 return Results.Json(new { message = "All records cleared" });
 });
